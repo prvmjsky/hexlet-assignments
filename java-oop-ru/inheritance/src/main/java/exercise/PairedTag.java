@@ -1,9 +1,12 @@
 package exercise;
 
+import lombok.Setter;
+
 import java.util.List;
 import java.util.Map;
 
 // BEGIN
+@Setter
 public final class PairedTag extends Tag {
     private String body;
     private List<Tag> children;
@@ -14,24 +17,18 @@ public final class PairedTag extends Tag {
         this.children = children;
     }
 
-    public PairedTag(String tagName, Map<String, String> attributes) {
-        super(tagName, attributes);
-    }
-
     @Override
     public String toString() {
-        if (body == null) {
-            return String.format("<%s" + " %s>" + "</%s>",
-                tagName, attributesToString(), tagName);
-        }
 
         StringBuilder childrenString = new StringBuilder();
         children.forEach(child -> {
             childrenString.append(child.toString());
         });
 
-        return String.format("<%s" + " %s>" + "%s" + "%s" + "</%s>",
-            tagName, attributesToString(), childrenString, body, tagName);
+        var suffix = attributes.isEmpty() ? "" : " ";
+
+        return String.format("<%s%s%s>" + "%s" + "%s" + "</%s>",
+            tagName, suffix, attributesToString(), childrenString, body, tagName);
     }
 }
 // END

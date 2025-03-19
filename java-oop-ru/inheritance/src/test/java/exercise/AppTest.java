@@ -1,7 +1,9 @@
 package exercise;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
+
 import java.util.Map;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -15,13 +17,13 @@ class AppTest {
         Map<String, String> attributes1 = new LinkedHashMap<>();
         attributes1.put("class", "w-75");
         attributes1.put("id", "wop");
-        Tag img = new PairedTag("img", attributes1);
+        Tag img = new SingleTag("img", attributes1);
         String actual1 = img.toString();
         String expected1 = "<img class=\"w-75\" id=\"wop\">";
         assertThat(actual1).isEqualTo(expected1);
 
         Map<String, String> attributes2 = new LinkedHashMap<>();
-        Tag hr = new PairedTag("hr", attributes2);
+        Tag hr = new SingleTag("hr", attributes2);
         String actual2 = hr.toString();
         String expected2 = "<hr>";
         assertThat(actual2).isEqualTo(expected2);
@@ -57,8 +59,8 @@ class AppTest {
 
 
         List<Tag> children = List.of(
-            new PairedTag("br", Map.of("id", "s")),
-            new PairedTag("hr", Map.of("class", "a-5"))
+            new SingleTag("br", Map.of("id", "s")),
+            new SingleTag("hr", Map.of("class", "a-5"))
         );
 
         Tag div = new PairedTag("div", attributes, "", children);

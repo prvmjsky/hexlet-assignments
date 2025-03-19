@@ -10,7 +10,11 @@ public final class SingleTag extends Tag {
 
     @Override
     public String toString() {
-        return String.format("<%s" + " %s>", tagName, attributesToString());
+
+        var suffix = attributes.isEmpty() ? "" : " ";
+
+        return String.format("<%s%s%s>",
+            tagName, suffix, attributesToString());
     }
 }
 // END

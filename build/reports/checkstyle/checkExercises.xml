@@ -12,4 +12,83 @@
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\classes-and-objects\src\test\java\exercise\AppTest.java">
 </file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Bmw.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Car.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Example.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Kia.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\main\java\exercise\App.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\main\java\exercise\Cottage.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\main\java\exercise\Flat.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\main\java\exercise\Home.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\main\java\exercise\ReversedSequence.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\test\java\exercise\AppTest.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\src\test\java\exercise\RevSeqTest.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\builder\Car.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\Example.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\state\Car.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\state\impl\DriveState.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\state\impl\LockedState.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\state\impl\StartState.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\examples\state\State.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\src\main\java\exercise\InputTag.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\src\main\java\exercise\LabelTag.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\src\main\java\exercise\TagInterface.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\patterns\src\test\java\exercise\AppTest.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\Device.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\Example.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\GalaxyNote.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\IPad.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\IPhone.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\Smartphoneable.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\Tabletable.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\App.java">
+<error line="3" column="8" severity="error" message="Unused import - java.util.HashMap." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="4" column="8" severity="error" message="Unused import - java.util.Map." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - java.util.Map.Entry." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="8" severity="error" message="Unused import - java.util.Set." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\FileKV.java">
+<error line="3" column="8" severity="error" message="Unused import - java.util.HashMap." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\InMemoryKV.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\KeyValueStorage.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\Utils.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\test\java\exercise\AppTest.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\test\java\exercise\FileKVTest.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\test\java\exercise\InMemoryKVTest.java">
+</file>
 </checkstyle>

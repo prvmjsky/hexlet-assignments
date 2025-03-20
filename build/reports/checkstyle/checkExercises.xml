@@ -12,6 +12,22 @@
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\classes-and-objects\src\test\java\exercise\AppTest.java">
 </file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\examples\Animal.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\examples\Dog.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\examples\Example.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\examples\Frog.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\src\main\java\exercise\PairedTag.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\src\main\java\exercise\SingleTag.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\src\main\java\exercise\Tag.java">
+</file>
+<file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\inheritance\src\test\java\exercise\AppTest.java">
+</file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Bmw.java">
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\interfaces\examples\Car.java">
@@ -71,13 +87,8 @@
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\examples\Tabletable.java">
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\App.java">
-<error line="3" column="8" severity="error" message="Unused import - java.util.HashMap." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="4" column="8" severity="error" message="Unused import - java.util.Map." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="5" column="8" severity="error" message="Unused import - java.util.Map.Entry." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="6" column="8" severity="error" message="Unused import - java.util.Set." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\FileKV.java">
-<error line="3" column="8" severity="error" message="Unused import - java.util.HashMap." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
 </file>
 <file name="C:\Users\lukya\Hexlet\hexlet-assignments\java-oop-ru\subtyping\src\main\java\exercise\InMemoryKV.java">
 </file>

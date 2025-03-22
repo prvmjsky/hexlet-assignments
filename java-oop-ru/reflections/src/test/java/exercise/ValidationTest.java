@@ -42,7 +42,7 @@ class ValidationTest {
         Map<String, List<String>> result2 = Validator.advancedValidate(address2);
         Map<String, List<String>> expected2 = Map.of(
             "country", List.of(lengthError + " 4"),
-            "city", List.of(lengthError),
+            "city", List.of(lengthError + " 3"),
             "street", List.of(nullError, lengthError + " 3"),
             "houseNumber", List.of(nullError)
         );

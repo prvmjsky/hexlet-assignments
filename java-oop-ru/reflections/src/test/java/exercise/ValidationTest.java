@@ -28,6 +28,25 @@ class ValidationTest {
     }
 
     // BEGIN
-    
+    @Test
+    void testAdvancedValidate() {
+        var nullError = "can not be null";
+        var lengthError = "length less than";
+
+        Address address1 = new Address("Russia", "Ufa", "Lenina", "54", null);
+        Map<String, List<String>> result1 = Validator.advancedValidate(address1);
+        Map<String, List<String>> expected1 = Map.of();
+        assertThat(result1).isEqualTo(expected1);
+
+        Address address2 = new Address("USA", "YE", null, null, null);
+        Map<String, List<String>> result2 = Validator.advancedValidate(address2);
+        Map<String, List<String>> expected2 = Map.of(
+            "country", List.of(lengthError + " 4"),
+            "city", List.of(lengthError),
+            "street", List.of(nullError, lengthError + " 3"),
+            "houseNumber", List.of(nullError)
+        );
+        assertThat(result2).isEqualTo(expected2);
+    }
     // END
 }

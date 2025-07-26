@@ -13,7 +13,6 @@ public class Application {
 
         for (Method method : methods) {
             if (method.isAnnotationPresent(Inspect.class)) {
-                Inspect inspection = method.getAnnotation(Inspect.class);
                 String name = method.getName();
                 String type = method.getReturnType().getSimpleName();
                 System.out.printf("Method %s returns a value of type %s%n", name, type);

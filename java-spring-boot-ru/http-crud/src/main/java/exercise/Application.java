@@ -50,7 +50,7 @@ public class Application {
     }
 
     @PutMapping("/posts/{id}")
-    public Post create(@PathVariable String id, Post post) {
+    public Post create(@PathVariable String id, @RequestBody Post post) {
         var mbPost = posts.stream()
             .filter(p -> p.getId().equals(id))
             .findFirst();

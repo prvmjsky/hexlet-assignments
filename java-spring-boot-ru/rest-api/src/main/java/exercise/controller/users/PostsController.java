@@ -31,7 +31,7 @@ public class PostsController {
     public Post create(@PathVariable String id,
                        @RequestBody String slug, @RequestBody String title, @RequestBody String body) {
         var post = new Post();
-        post.setUserId(id);
+        post.setUserId(Integer.parseInt(id));
         post.setSlug(slug);
         post.setTitle(title);
         post.setBody(body);

@@ -18,7 +18,7 @@ import exercise.Data;
 @RestController
 @RequestMapping("/api")
 public class PostsController {
-    List<Post> posts = new ArrayList<>();
+    List<Post> posts = Data.getPosts();
 
     @GetMapping("users/{id}/posts")
     @ResponseStatus(HttpStatus.OK)

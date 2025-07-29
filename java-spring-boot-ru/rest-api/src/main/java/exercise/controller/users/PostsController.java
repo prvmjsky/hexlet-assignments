@@ -1,6 +1,5 @@
 package exercise.controller.users;
 
-import java.util.ArrayList;
 import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,12 +28,12 @@ public class PostsController {
     @PostMapping("users/{id}/posts")
     @ResponseStatus(HttpStatus.CREATED)
     public Post create(@PathVariable String id,
-                       @RequestBody String slug, @RequestBody String title, @RequestBody String body) {
+                       @RequestBody Post data) {
         var post = new Post();
         post.setUserId(Integer.parseInt(id));
-        post.setSlug(slug);
-        post.setTitle(title);
-        post.setBody(body);
+        post.setSlug(data.getSlug());
+        post.setTitle(data.getTitle());
+        post.setBody(data.getBody());
         posts.add(post);
 
         return post;

@@ -21,21 +21,15 @@ public class PostsController {
 
     @GetMapping("users/{id}/posts")
     @ResponseStatus(HttpStatus.OK)
-    public List<Post> show(@PathVariable String id) {
-        return posts.stream().filter(p -> String.valueOf(p.getUserId()).equals(id)).toList();
+    public List<Post> show(@PathVariable Integer id) {
+        return posts.stream().filter(p -> p.getUserId() == id).toList();
     }
 
     @PostMapping("users/{id}/posts")
     @ResponseStatus(HttpStatus.CREATED)
-    public Post create(@PathVariable String id,
-                       @RequestBody Post data) {
-        var post = new Post();
-        post.setUserId(Integer.parseInt(id));
-        post.setSlug(data.getSlug());
-        post.setTitle(data.getTitle());
-        post.setBody(data.getBody());
+    public Post create(@PathVariable Integer id, @RequestBody Post post) {
+        post.setUserId(id);
         posts.add(post);
-
         return post;
     }
 }

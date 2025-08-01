@@ -106,16 +106,18 @@ class TaskControllerTest {
         var task = mockTask();
         taskRepository.save(task);
         var id = task.getId();
-        var title = task.getTitle();
+
+        var data = new HashMap<>();
+        data.put("title", "new title");
 
         var request = put("/tasks/" + id)
             .contentType(MediaType.APPLICATION_JSON)
-            .content(om.writeValueAsString(task));
+            .content(om.writeValueAsString(data));
         mockMvc.perform(request)
             .andExpect(status().isOk());
 
         task = taskRepository.findById(id).get();
-        assertThat(task.getTitle()).isEqualTo(title);
+        assertThat(task.getTitle()).isEqualTo("new title");
     }
 
     @Test
